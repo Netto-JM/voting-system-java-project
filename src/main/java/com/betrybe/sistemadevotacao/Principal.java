@@ -21,8 +21,8 @@ public class Principal {
     // Cadastro de pessoas candidata;
     while (true) {
       System.out.printf("Cadastrar pessoa candidata?%n1 - Sim%n2 - Não%n");
-      String option = sc.nextLine();
       System.out.println("Entre com o número correspondente à opção desejada:");
+      String option = sc.nextLine();
       if (option.equals("1")) {
         System.out.println("Entre com o nome da pessoa candidata:");
         String nome = sc.nextLine();
@@ -40,8 +40,8 @@ public class Principal {
     // Cadastro de pessoas eleitoras;
     while (true) {
       System.out.printf("Cadastrar pessoa eleitora?%n1 - Sim%n2 - Não%n");
-      String option = sc.nextLine();
       System.out.println("Entre com o número correspondente à opção desejada:");
+      String option = sc.nextLine();
       if (option.equals("1")) {
         System.out.println("Entre com o nome da pessoa eleitora:");
         String nome = sc.nextLine();
